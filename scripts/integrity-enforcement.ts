@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import peopleRaw from '../static/people.json?raw';
 import type { BlogPost, Paper, Person } from '../src/lib/app-types';
-import { parsePostData, stripHTML } from "../src/lib/pasre-post";
+import { parsePostData, stripHTML } from "../src/lib/parse-post";
 import markdownit from 'markdown-it'
 
 async function generateIndex() {
