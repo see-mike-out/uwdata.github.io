@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { base } from '$app/paths';
 import type { PageLoad } from './$types';
-import { parsePostData } from '$lib/pasre-post';
+import { parsePostData } from '$lib/parse-post';
 import type { BlogPost, Paper } from '$lib/app-types';
 
 
